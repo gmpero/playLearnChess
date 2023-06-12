@@ -1,0 +1,57 @@
+.board{
+    border: solid #282828; 
+    display: flex;
+    flex-wrap: wrap;
+    /* Центрирование доски */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.white
+{
+    width: 12.5%;
+    height: 12.5%;
+    background-color: aliceblue;
+    color: darkgray;
+    position: relative;
+}
+
+.black
+{
+    width: 12.5%;
+    height: 12.5%;
+    background-color: darkgrey;
+    color: aliceblue;
+    position: relative;
+}
+
+.Vindex
+{
+    position: absolute;
+}
+
+.Hindex
+{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+}
+
+
+/* Кнопка НАЧАТЬ */
+.btn{
+    width: 200px;
+    height: 50px;
+}
+
+.wrapper{
+    display: flex;
+  justify-content: center;
+}
+
+
+/* СТАРТОВЫЙ ТЕКСТ */
+.text_coord{
+    margin: 20px;
+}

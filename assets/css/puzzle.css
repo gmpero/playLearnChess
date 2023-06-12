@@ -1,0 +1,74 @@
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    /* Центрирование доски */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+.infopuzzle-1{
+    width: 85%;
+    height: 150px;
+    background: rgb(38,36,33);
+    border-radius: 5px;
+    /* Центрирование доски */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.rules{
+    color:rgb(186,186,186);
+    padding: 15px;
+    font-size: 15px;
+}
+
+.rules p{
+    margin: 10px;
+}
+
+.infopuzzle-2{
+    width: 85%;
+    height: 200px;
+    background: rgb(38,36,33);
+    border-radius: 5px;
+    /* Центрирование доски */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    color:rgb(186,186,186);
+}
+
+.rating{
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 90px; */
+}
+
+.ratingNumber{
+    color: orange;
+}
+
+.textCount{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.numberOfCounter{
+    font-size: 30px;
+    color: gold;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.warning{
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: orange;
+}
